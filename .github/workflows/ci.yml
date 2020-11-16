@@ -1,0 +1,17 @@
+name: github pages
+on:
+  push:
+    branches:
+      - master # default branch
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm install
+      - run: npm run docs:build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.c47d4de5e1415d04e5f4f23c49480029c94e432d }}
+          publish_dir: ./docs-dist
