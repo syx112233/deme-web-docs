@@ -24,9 +24,7 @@ import Footer from './Footer';
 > 项目名称
 >
 > > config //配置文件<br>
-> > src //项目代码文件<br>
-> > &nbsp;&nbsp;&nbsp;&nbsp;index.js //入口文件<br>
-> > &nbsp;&nbsp;&nbsp;&nbsp;...<br>
+> > src //项目代码文件<br> > > &nbsp;&nbsp;&nbsp;&nbsp;index.js //入口文件<br> > > &nbsp;&nbsp;&nbsp;&nbsp;...<br>
 > > utils //工具类<br>
 > > assets //静态资源<br>
 > > release //生产环境打包输出<br>
